@@ -31,7 +31,7 @@
         "postalCode": "64112",
         "addressCountry": "ID"
       },
-      "telephone": "+6281234567890",
+      "telephone": "+6281939892449",
       "priceRange": "Rp 150.000.000 - Rp 500.000.000",
       "areaServed": ["Kediri", "Blitar", "Nganjuk", "Jombang"]
     }
@@ -125,7 +125,7 @@
                                     {item}
                                 </a>
                             ))}
-                            <a href="https://wa.me/6281234567890?text=Halo%20Mas%20Bams,%20saya%20tertarik%20dengan%20properti%20Kediri" 
+                            <a href="https://wa.me/6281939892449?text=Halo%20Mas%20Bams,%20saya%20tertarik%20dengan%20properti%20Kediri" 
                                target="_blank"
                                className="bg-green-500 text-white px-5 py-2 rounded-full font-bold hover:bg-green-600 transition shadow-lg flex items-center">
                                 <i className="fab fa-whatsapp mr-2"></i> Hubungi
@@ -196,7 +196,7 @@
                             <span className="flex items-center"><i className="fas fa-ruler-combined mr-2"></i> {property.area}</span>
                             <span className="font-bold text-blue-700">{property.price}</span>
                         </div>
-                        <a href={`https://wa.me/6281234567890?text=Halo%20Mas%20Bams,%20saya%20tertarik%20dengan%20${property.title}`} 
+                        <a href={`https://wa.me/6281939892449?text=Halo%20Mas%20Bams,%20saya%20tertarik%20dengan%20${property.title}`} 
                            target="_blank"
                            className="block w-full text-center mt-4 bg-gray-800 text-white py-2 rounded hover:bg-gray-900 transition">
                             Tanya Detail
@@ -313,7 +313,7 @@
                 e.preventDefault();
                 const intentText = formData.intent === 'sell' ? 'TITIP JUAL' : 'CARI/BELI';
                 const waMessage = `Halo Mas Bams, nama saya *${formData.name}*.%0ASaya ingin *${intentText}* properti.%0ADetail: ${formData.message}`;
-                window.open(`https://wa.me/6281234567890?text=${waMessage}`, "_blank");
+                window.open(`https://wa.me/6281939892449?text=${waMessage}`, "_blank");
             };
 
             return (
@@ -378,4 +378,5 @@
 </body>
 
 </html>
+
 
